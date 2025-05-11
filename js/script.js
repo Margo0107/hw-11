@@ -12,3 +12,12 @@ for (let row = 1; row <= 10; row++){
     table.appendChild(tr);
 }
 container.appendChild(table);
+
+
+
+const text = document.getElementById('text');
+const button = document.getElementById('toggleBtn');
+
+button.addEventListener('click', () => {
+    text.classList.toggle('red');
+});

@@ -3,7 +3,7 @@ h2 {
   padding: 0 50px;
 }
 td {
-    color: #483eb3;
+  color: #483eb3;
   text-align: center;
   padding: 5px 10px;
   border: 1px solid #483eb3;
@@ -13,5 +13,16 @@ table {
   border-collapse: collapse;
 }
 #table-container {
-  padding: 0 50px;
+  padding: 20px 50px;
+}
+
+#text {
+  color: black;
+  padding: 20px 50px;
+}
+#text.red {
+  color: red;
+}
+.Btn {
+  margin: 0 50px;
 }
